@@ -1,6 +1,6 @@
 import { sumClamp } from "./sumClamp";
 
-describe("Sum clamp", () => {
+describe("sumClamp", () => {
   it("should sum up to zero", () => {
     expect(sumClamp([], 10)).toBe(0);
   });
